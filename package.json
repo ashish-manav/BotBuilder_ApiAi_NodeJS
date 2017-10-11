@@ -1,0 +1,28 @@
+{
+  "name": "apiai-skype-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=5.6.0"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apiai": "^2.0.5",
+    "async": "^2.5.0",
+    "axios": "^0.16.2",
+    "body-parser": "^1.15.1",
+    "botbuilder": "^3.10.2",
+    "console-stamp": "^0.2.2",
+    "dotenv-extended": "^2.0.1",
+    "express": "^4.13.4",
+    "node-uuid": "^1.4.7",
+    "path": "^0.12.7"
+  }
+}

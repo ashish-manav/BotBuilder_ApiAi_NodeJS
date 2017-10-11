@@ -1,0 +1,26 @@
+[
+            {
+                "title": "Roasted Turkey Sandwich",
+                "subtitle": "Carved roasted turkey breast ",
+                "text": "In this sandwich, bacon & turkey breast are BFFs. Carved roasted turkey breast is served with our hickory-smoked bacon, Swiss cheese, lettuce, tomato & mayonnaise, all on magnificently marbled rye. Add avocado for an additional charge.",
+                "images": "https://www.ihop.com/-/media/dineequity/ihop/images/menu/menuitems/june2016coremenuupd/new_roasted_turkey_sandwich.ashx",
+                "buttonValue": "Roasted Turkey Sandwich",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Philly Cheese Steak Stacker",
+                "subtitle": "Grilled Philly sirloin steak",
+                "text": "This signature favorite is stacked with grilled Philly sirloin steak and thinly sliced onion, then topped with melted American cheese on a perfectly grilled roll. Add avocado for an additional charge.",
+                "images": "https://www.ihop.com/-/media/dineequity/ihop/images/menu/menuitems/lto5_2017/phillycheesesteakstacker_web.ashx",
+                "buttonValue": "Philly Cheese Steak Stacker",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Turkey, Bacon & Avocado Wrap",
+                "subtitle": "Roasted turkey breast",
+                "text": "Three of the most popular tastes come together for the better. We took carved roasted turkey breast, ripe avocado and hickory-smoked bacon, then added tomatoes, mixed greens, red onions and ranch and rolled them snug as a hug in a flour tortilla wrap.",
+                "images": "https://www.ihop.com/-/media/dineequity/ihop/images/menu/menuitems/2017sepmenu/turkeybaconavacado_sandwich_web.ashx",
+                "buttonValue": "Turkey, Bacon & Avocado Wrap",
+                "buttonText": "Choose"
+            }
+        ]

@@ -1,0 +1,26 @@
+[
+            {
+                "title": "Pepper Barbecue Chicken",
+                "subtitle": "Pepper Barbecue with Cheese",
+                "text": "",
+                "images": "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
+                "buttonValue": "Pepper Barbecue Chicken",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Chicken Sausage",
+                "subtitle": "Chicken Sausage with Cheese",
+                "text": "",
+                "images": "https://www.dominos.co.in/files/items/Chicken_Sausage.jpg",
+                "buttonValue": "Chicken Sausage",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Non Veg Supreme",
+                "subtitle": "Non Veg with Cheese",
+                "text": "",
+                "images": "https://www.dominos.co.in/files/items/Non-Veg_Supreme.jpg",
+                "buttonValue": "Non Veg Supreme",
+                "buttonText": "Choose"
+            }
+        ]

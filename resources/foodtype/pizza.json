@@ -1,0 +1,26 @@
+[
+            {
+                "title": "Veggie Supreme",
+                "subtitle": "Onion, Capsicum, Mushroom, Red Paprika, Black Olives, Sweet Corn",
+                "text": "",
+                "images": "https://online.pizzahut.co.in/sites/default/files/product_images/pizzahut_slice_images/1371006.png",
+                "buttonValue": "Veggie Supreme",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Exotica",
+                "subtitle": "Red Capsicum, Green Capsicum, Baby Corn, Black Olives, Jalapenos",
+                "text": "",
+                "images": "https://online.pizzahut.co.in/sites/default/files/product_images/pizzahut_slice_images/1371007.png",
+                "buttonValue": "Exotica",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Triple Chicken Feast",
+                "subtitle": "Chicken Keema, Chicken Meatball, Chicken Hot & Chilly, Capsicum, Onion, Sweet Corn",
+                "text": "",
+                "images": "https://online.pizzahut.co.in/sites/default/files/product_images/pizzahut_slice_images/1371166.png",
+                "buttonValue": "Triple Chicken Feast",
+                "buttonText": "Choose"
+            }
+        ]

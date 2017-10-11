@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Neudesic - Showcase</title>
+    <link rel="icon" href="assets/img/cropped-n-logo-32x32.png" sizes="32x32" />
+
+</head>
+
+<body>
+    <div style="height: 100%; width: 100%; position:fixed;">
+        <iframe id="frameBot" width="96%" height="98%" src='https://webchat.botframework.com/embed/msneudesichospitalitydemo?s=-M2mGyZ4weY.cwA.W3Y.SI8Bo6qPfNB5w-x-zOqMM_H8X2ttcCLLcvL41y5f-c0'></iframe>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALP-9gqE-100Y35BBt4Y3_fmIVAha4uMQ" type="text/javascript"></script>
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+        function showPosition(position) {
+
+            getDetails(position.coords.latitude, position.coords.longitude)
+
+        }
+        var currgeocoder;
+        function getDetails(latcurr, longcurr) {
+            currgeocoder = new google.maps.Geocoder();
+            console.log(latcurr + "-- ######## --" + longcurr);
+
+            if (latcurr != '' && longcurr != '') {
+                var myLatlng = new google.maps.LatLng(latcurr, longcurr);
+                return getCurrentAddress(latcurr, longcurr, myLatlng);
+            } else return '';
+        }
+
+        function getCurrentAddress(latcurr, longcurr, location) {
+            console.log(location);
+            currgeocoder.geocode({
+                'location': location
+
+            }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    saveLocation(latcurr, longcurr, results[0].formatted_address);
+                } else {
+                    alert('Geocode was not successful for the following reason: ' + status);
+                }
+            });
+        }
+
+        function saveLocation(latitude, longitude, formatAddr) {
+            $.ajax({
+                url: "/saveLocation?lat=" + latitude + "&lon=" + longitude + "&addr=" + formatAddr,
+                type: "GET",
+                success: function (data, textStatus, jqXHR) {
+                    console.log("succesfully save location into server");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.error("error on saving ocation into server");
+                }
+            });
+        }       
+
+        $(document).ready(function () {
+            getLocation();
+        });
+    </script>
+    <!--script for this page-->
+
+</body>
+
+</html>

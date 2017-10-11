@@ -1,0 +1,26 @@
+[
+            {
+                "title": "RODEO® KING™",
+                "subtitle": "Flame grilled Chicken",
+                "text": "The RODEO® KING™ Sandwich features two savory flame-grilled beef patties totaling more than ½ lb.* of beef, topped with 3 half-strips of thick-cut smoked bacon, our signature crispy onion rings, tangy BBQ sauce, American cheese and creamy mayonnaise all on our sesame seed bun.",
+                "images": "http://www.bk.com/sites/default/files/02109-2-BK_Web_RodeoKing_300x270px.png",
+                "buttonValue": "RODEO KING",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "BBQ Bacon WHOPPER® Sandwich",
+                "subtitle": "Enjoy the BBQ Flavor",
+                "text": "Our BBQ Bacon WHOPPER® Sandwich features a ¼ lb* of savory fire-grilled beef, topped with thick-cut smoked bacon, melted American cheese, freshly cut iceberg lettuce, creamy mayo, ripe tomatoes, ketchup, onions, crunchy pickles, and layers of a sweet and smoky bbq sauce, all on a warm, toasted, sesame seed bun.",
+                "images": "http://www.bk.com/sites/default/files/Thumb_0004_BBQ_Bacon_Whopper_0.jpg",
+                "buttonValue": "BBQ Bacon WHOPPER Sandwich",
+                "buttonText": "Choose"
+            },
+            {
+                "title": "Bacon & Cheese WHOPPER® Sandwich",
+                "subtitle": "Juicy & superbly tasty",
+                "text": "Our Bacon and Cheese WHOPPER® Sandwich is a ¼ lb.* of savory flame-grilled beef topped with thick-cut smoked bacon, melted American cheese, ripe tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
+                "images": "http://www.bk.com/sites/default/files/BC-Whopper-thumb.png",
+                "buttonValue": "Bacon & Cheese WHOPPER Sandwich",
+                "buttonText": "Choose"
+            }
+        ]
